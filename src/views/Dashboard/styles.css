@@ -1,0 +1,40 @@
+.nav,.navbar {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+span {
+    color:white;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+
+.post {
+    width: 560px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: white;
+
+    border: 1px solid rgba(68, 170, 173, 0.68)
+}
+
+.post-header {
+    background-color:  #007bff;;
+    color: white;
+}
+
+.list-post {
+     margin-bottom: 10px;
+}

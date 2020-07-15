@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./styles.css";
-
 import Input from "../components/input";
 
 export default (props) => {

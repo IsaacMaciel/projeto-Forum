@@ -46,18 +46,22 @@ export default function Login() {
                                         id="customCheck1"
                                     />
                                     <div className="options-login">
-                                        <a href="">Esqueceu a Senha?</a>
+                                        <Link to="/forgot">
+                                            Esqueceu a senha ?
+                                        </Link>
                                         <Link to="/register">
                                             Criar uma conta
                                         </Link>
                                     </div>
                                 </div>
-                                <button
-                                    className="btn btn-lg btn-primary btn-block text-uppercase"
-                                    type="submit"
-                                >
-                                    Login
-                                </button>
+                                <Link to="/dash">
+                                    <button
+                                        className="btn btn-lg btn-primary btn-block text-uppercase"
+                                        type="submit"
+                                    >
+                                        Login
+                                    </button>
+                                </Link>
                             </form>
                         </div>
                     </div>
