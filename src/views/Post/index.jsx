@@ -33,24 +33,22 @@ export default (props) => (
                 </footer>
             </div>
         </div>
-        <form action="">
-            <form className="bg-light mt-5 ">
-                <div className="card-header">
-                    <strong>Resposta ao tópico: Como estudar React Js</strong>
-                </div>
+        <form className="bg-light mt-5 ">
+            <div className="card-header">
+                <strong>Resposta ao tópico: Como estudar React Js</strong>
+            </div>
 
-                <div class="form-group p-3">
-                    <label for="exampleFormControlTextarea1">Texto</label>
-                    <textarea
-                        class="form-control"
-                        id="exampleFormControlTextarea1"
-                        rows="3"
-                    ></textarea>
-                    <footer className="d-flex justify-content-end mt-3">
-                        <button className="btn btn-primary">Responder</button>
-                    </footer>
-                </div>
-            </form>
+            <div class="form-group p-3">
+                <label for="exampleFormControlTextarea1">Texto</label>
+                <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                ></textarea>
+                <footer className="d-flex justify-content-end mt-3">
+                    <button className="btn btn-primary">Responder</button>
+                </footer>
+            </div>
         </form>
     </div>
 );
