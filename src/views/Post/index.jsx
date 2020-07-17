@@ -34,28 +34,23 @@ export default (props) => (
             </div>
         </div>
         <form action="">
-            <div className="form-group">
-                <div class="form-group">
-                    <label
-                        className="card-title"
-                        for="exampleFormControlInput1"
-                    >
-                        Resposta ao "Como estudar React JS"
-                    </label>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="exampleFormControlInput1"
-                        placeholder="Digite o título"
-                    />
+            <form className="bg-light mt-5 ">
+                <div className="card-header">
+                    <strong>Resposta ao tópico: Como estudar React Js</strong>
                 </div>
-                <textarea
-                    className="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                ></textarea>
-                <button className="btn btn-primary">Enviar</button>
-            </div>
+
+                <div class="form-group p-3">
+                    <label for="exampleFormControlTextarea1">Texto</label>
+                    <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                    ></textarea>
+                    <footer className="d-flex justify-content-end mt-3">
+                        <button className="btn btn-primary">Responder</button>
+                    </footer>
+                </div>
+            </form>
         </form>
     </div>
 );
