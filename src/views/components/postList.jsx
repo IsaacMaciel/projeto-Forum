@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default (props) => (
-    <a
-        href="#"
+    <Link
+        to="/post"
         className=" list-post list-group-item list-group-item-action flex-column align-items-start"
     >
         <div className="d-flex w-100 justify-content-between">
@@ -15,5 +16,5 @@ export default (props) => (
 
             <small className="text-muted">Respondido por: {props.last}</small>
         </footer>
-    </a>
+    </Link>
 );

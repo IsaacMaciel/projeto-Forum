@@ -9,8 +9,9 @@ import { Link } from "react-router-dom";
 export default (props) => (
     <div className="container">
         <Navbar user={"Isaac Araujo"} />
+        <Menu />
         <main className="container-Forum">
-            <form className="bg-light mt-5 p-3 ">
+            <form className="bg-light p-3 ">
                 <div className="form-group ">
                     <label htmlFor="inputTitle">
                         {" "}
